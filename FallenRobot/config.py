@@ -14,13 +14,13 @@ class Config(object):
     MONGO_DB_URI = "mongodb+srv://Sankalp99:Sankalp99@cluster0.vqyixvq.mongodb.net/?retryWrites=true&w=majority"  # Get ths value from cloud.mongodb.com
 
     # Telegraph link of the image which will be shown at start command.
-    START_IMG = "https://te.legra.ph/file/40eb1ed850cdea274693e.jpg"
+    START_IMG = "#"
 
     SUPPORT_CHAT = "hackersankalp20"  # Your Telegram support group chat username where your users will go and bother you
 
     TOKEN = "6479163966:AAFDhXbKOOeeNP6ptBKnB3oiSzasj-SAqAA"  # Get bot token from @BotFather on Telegram
 
-    TIME_API_KEY = ""  # Get this value from https://timezonedb.com/api
+    TIME_API_KEY = "https://api.timezonedb.com/v2.1/list-time-zone?key=ME3JC08YKK9R&format=xml&country=IN&zone=*New"  # Get this value from https://timezonedb.com/api
 
     OWNER_ID = 5789687624  # User id of your telegram account (Must be integer)
 
